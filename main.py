@@ -39,7 +39,7 @@ def generate_random_message():
 
 
 if __name__ == "__main__":
-    spam_channel = "1245058175678419067"
+    spam_channel = os.getenv("dach")
     
     tokens = [
         os.getenv("acc_1"),
